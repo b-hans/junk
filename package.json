@@ -5,8 +5,8 @@
   "scripts": {
     "glogin": "clasp login",
     "glogout": "clasp logout",
-    "gcreate": "clasp create --title '<PROJECT TITLE>' --rootDir ./apps-script",
-    "gclone": "clasp clone 15ImUCpyi1Jsd8yF8Z6wey_7cw793CymWTLxOqwMka3P1CzE5hQun6qiC --rootDir ./apps-script",
+    "gcreate": "clasp create --title 'junk' --rootDir ./apps-script",
+    "gclone": "clasp clone 1A5pcFQgG2JFG-JFEkwdR8tM55xtrNt31GIyqigzeO-IFsNLm-kZPItzP --rootDir ./apps-script",
     "gpull": "clasp pull",
     "gpush": "clasp push",
     "gstart": "clasp push --watch",
