@@ -34697,6 +34697,11 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 function Home() {
+    const clickTestHandler = (event)=>{
+        event.preventDefault();
+        console.log("tester1");
+        console.log("end script");
+    };
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
             className: "pageContent",
@@ -34705,20 +34710,30 @@ function Home() {
                     children: "Homepage"
                 }, void 0, false, {
                     fileName: "src/components/Home.js",
-                    lineNumber: 4,
+                    lineNumber: 15,
                     columnNumber: 13
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                    children: "Test3"
+                    children: "New stuff"
                 }, void 0, false, {
                     fileName: "src/components/Home.js",
-                    lineNumber: 6,
+                    lineNumber: 17,
+                    columnNumber: 13
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                    href: "#",
+                    onClick: clickTestHandler,
+                    class: "btn btn-sm btn-primary",
+                    children: "Test"
+                }, void 0, false, {
+                    fileName: "src/components/Home.js",
+                    lineNumber: 19,
                     columnNumber: 13
                 }, this)
             ]
         }, void 0, true, {
             fileName: "src/components/Home.js",
-            lineNumber: 3,
+            lineNumber: 14,
             columnNumber: 9
         }, this)
     }, void 0, false);
