@@ -11,7 +11,7 @@ function Home() {
 
         try {
             let r = await serverFunctions
-                .heyTest()
+                .openDrive()
                 .then ((response) => {
                     console.log (response)
                 })
@@ -20,8 +20,6 @@ function Home() {
                 });
 
         } catch {(err) => {console.log ('second error: ' + err)}}
-
-
 
         console.log ('end script');
     }

@@ -12,7 +12,7 @@ function Nav() {
 
     return  <>
                 <nav className="navbar">
-                    <div className="brand-title">Brand name</div>
+                    <div className="brand-title">Brian's junk</div>
                     <a href="#" className="toggle-button" onClick={toggleMenu}>
                         <span className="bar"></span>
                         <span className="bar"></span>
