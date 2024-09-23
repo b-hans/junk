@@ -3,7 +3,7 @@ function Home() {
         <div className='pageContent'>
             <h1>Homepage</h1>
 
-            <h2>Test1z</h2>
+            <h2>Test3</h2>
         </div>
     </>
 }
